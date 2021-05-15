@@ -3,13 +3,13 @@
 
 int main()
 {
-    double altura, comprimento, largura;
+    float altura, comprimento, largura;
     printf("Digite o valor da altura: ");
     scanf("%f", &altura);
     printf("Digite o valor do comprimento: ");
     scanf("%f", &comprimento);
     printf("Digite o valor do largura: ");
     scanf("%f", &largura);
-    printf ("O volume é %.2f", comprimento*largura*altura);
+    printf ("O volume Ã© %.2f", comprimento*largura*altura);
     return 0;
 }
