@@ -11,7 +11,6 @@ int main()
     printf("[2] - Homens\n");
     printf(">>");
     scanf(" %c", &sexo);
-    printf("%c \n", sexo);
     if(sexo != '1' && sexo != '2'){
         printf("Sexo inválido\n");
         return 0;
