@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void cadastrarContato(char [], char []);
+
 int main(){
 
     while(1){
@@ -35,6 +37,6 @@ int main(){
 void cadastrarContato(char nome[], char telefone[]){
     FILE *arquivo;
     arquivo = fopen("arquivo.csv", "a");
-    fprintf(arquivo, "%s,%s,", nome, telefone);
+    fprintf(arquivo, "%s,%s\n", nome, telefone);
     fclose(arquivo);
 }
